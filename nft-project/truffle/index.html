@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <title>Website</title>
+            <script src="node_modules/web3.js-browser/build/web3.js">
+
+            let Web3 = require('web3');
+            let web3=new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:8545'));
+            let accounts= await web3.eth.getAccounts();
+            document.getElementById("accounts").text(account);
+
+
+            </script>
+        </head>
+        <body>
+            <div id ="accounts">
+                accounts
+                </div>
+        </body>
+    </html>

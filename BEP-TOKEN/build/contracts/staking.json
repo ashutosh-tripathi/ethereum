@@ -1,0 +1,75 @@
+{
+  "contractName": "staking",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Staking.sol\":\"staking\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Staking.sol\":{\"keccak256\":\"0x9b85f53b5c3d6525c2f8c1b0e1bf354a175ad3a4344829e94046ca11f2851c49\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3b84bfd1027612a53bf51a332836767836f83ba470626086020eea1215f30654\",\"dweb:/ipfs/QmbH9TMEdfQfX4DKQhDj8Gg2pVz3xp3b8eYBgNv22bcbZ8\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220ef40a3762e1327893bfb60de78b40c616c81c187a1fb6c8e8a0049cd34ce67d764736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220ef40a3762e1327893bfb60de78b40c616c81c187a1fb6c8e8a0049cd34ce67d764736f6c63430008110033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "57:20:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "57:20:0:-:0;;;;;",
+  "source": "//SPDX-License-Identifier: MIT\npragma solidity ^0.8.15;\n\ncontract staking{\n\n}",
+  "sourcePath": "/home/ashutosh/Downloads/ethereum/BEP-TOKEN/contracts/Staking.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Staking.sol",
+    "exportedSymbols": {
+      "staking": [
+        2
+      ]
+    },
+    "id": 3,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".15"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "31:24:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "staking",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "staking",
+        "nameLocation": "66:7:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "57:20:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "31:46:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.11",
+  "updatedAt": "2023-01-12T16:58:13.443Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
